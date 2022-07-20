@@ -5,6 +5,9 @@ body{
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 ul{
@@ -27,7 +30,7 @@ li{
 
 .content{
     padding-top: 32px;
-    gap: 16px;
+    gap: 64px;
 }
 
 .header-logo{
@@ -44,6 +47,7 @@ li{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    text-align: left;
 }
 
 .hero-main{
@@ -74,4 +78,18 @@ button{
     width: 500px;
     height: 200px;
     background-color: gray;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+    gap: 16px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
 }
