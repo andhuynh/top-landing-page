@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex: 1;
 }
 
 ul{
@@ -20,11 +21,16 @@ li{
     list-style-type: none;
 }
 
+.top-section{
+    display: flex;
+    flex-direction: column;
+}
+
 .header, .content{
     display:flex;
     justify-content:space-between;
     background-color: #1F2937;
-    padding: 16px 100px;
+    padding: 32px 100px;
     align-items: center;
 }
 
@@ -86,6 +92,7 @@ button{
     justify-content: center;
     padding: 32px;
     gap: 16px;
+    background-color: #E5E7EB;
 }
 
 .gallery{
@@ -93,3 +100,24 @@ button{
     justify-content: center;
     gap: 64px;
 }
+
+.quote, .speaker{
+    padding: 32px;
+}
+
+.call-to-action{
+    padding: 32px 200px;
+    background-color: #3882F6;
+}
+
+.action-header, .action-description{
+    background-color: #3882F6;
+    padding: 0px 64px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 16px;
+}
+
